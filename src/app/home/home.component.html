@@ -1,0 +1,19 @@
+<section class="home">
+    <div class="hero">
+        <h1>Hello There!</h1>
+        <p>
+            I'm Daniel, <br> a front end developer striving to <br>make
+            the web a more beautiful place.
+        </p>
+        <button class="view-more" (click)="scrollToProjects()"> View my work</button>
+    </div>
+</section>
+
+<section class="container-flex">
+    <div class="description" *ngFor="let d of description" data-aos="fade-up" data-aos-duration="3000">
+        <h1>{{ d.header }}</h1>
+        <p>{{ d.des }}</p>
+    </div>
+</section>
+
+<app-about></app-about>

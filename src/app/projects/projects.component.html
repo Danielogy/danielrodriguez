@@ -1,0 +1,16 @@
+<section class="projects">
+    <h1 style="text-align: center;">Projects</h1>
+    <div class="projects-container">
+        <div class="project-card" *ngFor="let p of projects" data-aos="fade-up" data-aos-duration="3000">
+            <img src="{{ p.image }}" alt="image">
+            <h1>{{ p.title }}</h1>
+            <p>{{ p.des }}</p>
+            <a target="blank" nonreffer href="https://{{ p.liveLink }}"><button class="live" >Live Demo</button></a><br>
+            <a target="blank" nonreffer href="https://{{ p.codeLink }}"><button class="code" routerLink="">View Code</button></a>
+        </div>
+    </div>
+
+    <h5 data-aos="fade-in" data-aos-duration="3000">There's more! Check out all of my repositories on github <a target="blank" nonreffer href ="https://github.com/danielogy/">here!</a></h5>
+</section>
+
+<app-contact></app-contact>

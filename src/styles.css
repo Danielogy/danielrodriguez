@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+*, 
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #EEE;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
