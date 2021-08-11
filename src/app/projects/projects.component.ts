@@ -29,18 +29,18 @@ export class ProjectsComponent implements OnInit {
       codeLink: "github.com/Danielogy/jokes-app",
     },
     {
-      image: "./assets/images/happytails2.png",
+      image: "./assets/images/happytails.png",
       title: "Happy Tails Loving Care",
       des: "Using Angular and multiple libraries, I made a beautiful website for a dog sitter\
             based in New Jersey. Comes equipped with a gallery and a working contact page, as well\
-            as responsive and striking desing.",
-      liveLink: "danielogy.github.io/happytailslovingcare",
+            as a responsive and striking design.",
+      liveLink: "happytailslovingcare.com",
       codeLink: "github.com/Danielogy/happytailslovingcare",
     },
     {
       image: "./assets/images/todo.png",
       title: "Todo App",
-      des: "Well everyone has to start somewhere right? A basic todo app made with angular. I also have one made in React.js, just ask! c:",
+      des: "Well everyone has to start somewhere right? A basic todo app made with angular. I also have one made in React.js, just ask!",
       liveLink: "danielogy.github.io/todo-app/",
       codeLink: "github.com/Danielogy/todo-app",
     },

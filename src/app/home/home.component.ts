@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   description : Array<any> = [
     {
       header: "Striking",
-      des: `Beautifully crafted websites is what my goal is. I aim to provide
+      des: `Beautifully crafted websites is my goal. I aim to provide
             striking designs that ultimately grabs the attention of the user. I hope
             to leave a vivid impression on the sight and allow the user to have a positive
             experience.`
@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
     },
     {
       header: "Impactful",
-      des: `It's not just my only goal to ensure a positive user experience and a nice design,
+      des: `It's not just my only goal to ensure a positive user experience and a nice design.
             I also strive to give meaning and embed an impactiful understanding with each pixel.`
     },
 
